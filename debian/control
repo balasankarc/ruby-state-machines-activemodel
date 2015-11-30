@@ -1,0 +1,27 @@
+Source: ruby-state-machines-activemodel
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake,
+               ruby-activemodel (>= 4.1),
+               ruby-state-machines (>= 0.4.0)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-state-machines-activemodel.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-state-machines-activemodel.git
+Homepage: https://github.com/state-machines/state_machines-activemodel
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-state-machines-activemodel
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-activemodel (>= 4.1),
+         ruby-state-machines (>= 0.4.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: ActiveModel integration for State Machines
+ Adds support for creating state machines for attributes on ActiveModel
