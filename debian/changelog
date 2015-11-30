@@ -1,5 +1,5 @@
-ruby-state-machines-activemodel (0.3.0-1) UNRELEASED; urgency=medium
+ruby-state-machines-activemodel (0.3.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #804776)
 
- -- Balasankar C <balasankarc@autistici.org>  Mon, 30 Nov 2015 13:56:59 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Sun, 15 Nov 2015 16:20:10 +0530
